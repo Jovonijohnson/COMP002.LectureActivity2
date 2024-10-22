@@ -1,0 +1,29 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica /* Font family for the webpage */
+}
+
+body {
+    background: radial-gradient(circle, rgb(235, 110, 110), rgb(180, 97, 180)); /* Purple background */
+}
+
+h1 {
+    color: plum;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+} /* Plum color and font size and spacing adjustments for <h1> element */
+
+h2 {
+    color: cyan;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+} /* Cyan color and font size and spacing adjustments for <h2> element */
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    overflow: auto;
+} /* Makes scrollbars appear if the content overflows the viewport */
